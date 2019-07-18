@@ -26,9 +26,9 @@ body {
 }
 
 #myPic{
-  width:  200px;
-  height: 200px;
-  margin: 50px 0px 3px 80px;
+  width:  250px;
+  height: 250px;
+  margin: 50px 90px; 
   border-radius: 50%;
   background-size:cover;
 }
@@ -37,40 +37,29 @@ body {
   font-size: 2.0rem;
   font-weight: 700;
   color: rgba(0,0,0, 0.80);
-  margin: 10px 0px 0px 84px;
+  margin: 0px 0px 10px 0;
 
 }
 #h2{
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(0,0,0, 0.54);
-  margin: 10px 0px 5px 45px;
+  margin: 0px 0 10px 0;
 }
 
-.social-icons {
-  text-align: center;
-  margin: 5px 75px 5px 0;
-  }  
-.social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  }
-.social-icons li a {
-  border-bottom: none;
-  }
+ul li {
+  display:inline;
+}
 
 
 
 #a1{
   font-size: 1.5rem;
-  font-weight: 349;
+  font-weight: 500;
   color: rgba(0,0,0, 0.80);
-  margin: 10px 0px 5px 70px;
+  margin: 0px 0 10px 0;
+
 }
-
-
 
 #a1:hover {
   color: #337ab7;
