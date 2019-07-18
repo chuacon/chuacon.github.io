@@ -26,39 +26,49 @@ body {
 }
 
 #myPic{
-  width:  250px;
-  height: 250px;
-  margin: 50px 90px; 
+  width:  200px;
+  height: 200px;
+  /*margin: 50px 90px; */
+  margin: 50px 0px 3px 80px;
   border-radius: 50%;
   background-size:cover;
 }
 
 #h1{
-  font-size: 2.0rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 350;
   color: rgba(0,0,0, 0.80);
-  margin: 0px 0px 10px 0;
+  margin: 10px 0px 0px 84px;
 
 }
 #h2{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 330;
   color: rgba(0,0,0, 0.54);
-  margin: 0px 0 10px 0;
+  margin: 10px 0px 5px 45px;
 }
 
-ul li {
-  display:inline;
-}
+.social-icons {
+  text-align: center;
+  margin: 5px 75px 5px 0;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
 
 
 
 #a1{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 349;
   color: rgba(0,0,0, 0.80);
-  margin: 0px 0 10px 0;
-
+  margin: 10px 0px 5px 70px;
 }
 
 #a1:hover {
