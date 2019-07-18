@@ -2,37 +2,49 @@ body {
   background-color: white;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */
-/*
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   padding: 0px 0px;
 }
-*/ 
 
+#myNavbar{
+   float:right
+
+}
+    
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 1000px}
+    
+/* Set white background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: white;
+  height: 100%;
+}
 
 #myPic{
-  width:  200px;
-  height: 200px;
-  /*margin: 50px 90px; */
-  margin: 50px 0px 3px 80px;
+  width:  250px;
+  height: 250px;
+  margin: 50px 90px; 
   border-radius: 50%;
   background-size:cover;
 }
 
 #h1{
-  font-size: 2.5rem;
-  font-weight: 350;
+  font-size: 2.0rem;
+  font-weight: 700;
   color: rgba(0,0,0, 0.80);
-  margin: 10px 0px 0px 84px;
+  margin: 0px 0px 10px 0;
 
 }
 #h2{
   font-size: 1.5rem;
-  font-weight: 330;
+  font-weight: 500;
   color: rgba(0,0,0, 0.54);
-  margin: 10px 0px 5px 45px;
+  margin: 0px 0 10px 0;
 }
 
 .social-icons {
@@ -49,11 +61,14 @@ body {
   border-bottom: none;
   }
 
+
+
 #a1{
   font-size: 1.5rem;
-  font-weight: 349;
+  font-weight: 500;
   color: rgba(0,0,0, 0.80);
-  margin: 10px 0px 5px 70px;
+  margin: 0px 0 10px 0;
+
 }
 
 #a1:hover {
@@ -86,5 +101,23 @@ body {
   font-weight: 700;
   color: rgba(0,0,0, 0.54);
   margin: 60px 0 10px 0;
+
+}
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) 
+{
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {height:auto;}
 
 }
