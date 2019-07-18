@@ -26,9 +26,9 @@ body {
 }
 
 #myPic{
-  width:  250px;
-  height: 250px;
-  margin: 50px 90px; 
+  width:  20px;
+  height: 200px;
+  margin: 50px 0px 3px 80px;
   border-radius: 50%;
   background-size:cover;
 }
@@ -37,14 +37,14 @@ body {
   font-size: 2.0rem;
   font-weight: 700;
   color: rgba(0,0,0, 0.80);
-  margin: 0px 0px 10px 0;
+  margin: 10px 0px 0px 84px;
 
 }
 #h2{
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(0,0,0, 0.54);
-  margin: 0px 0 10px 0;
+  margin: 10px 0px 5px 45px;
 }
 
 .social-icons {
@@ -65,11 +65,12 @@ body {
 
 #a1{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 349;
   color: rgba(0,0,0, 0.80);
-  margin: 0px 0 10px 0;
-
+  margin: 10px 0px 5px 70px;
 }
+
+
 
 #a1:hover {
   color: #337ab7;
