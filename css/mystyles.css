@@ -48,19 +48,19 @@ body {
   margin: 10px 0px 0px 92px;
 }
 
-.social-icons {
+#social #container {
   text-align: center;
-  margin: 5px 75px 5px 0;
-  }  
-.social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  }
-.social-icons li a {
-  border-bottom: none;
-  }
+}
+
+#social #container ul {
+  float: left;
+}
+
+#social #container ul li {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+}
 
 
 
