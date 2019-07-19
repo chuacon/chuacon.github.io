@@ -53,11 +53,11 @@ body {
 }
 
 #social #container ul {
-  float: left;
+  float: center;
 }
 
 #social #container ul li {
-  float: left;
+  float: center;
   padding-left: 10px;
   list-style-type: none;
 }
