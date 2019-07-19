@@ -49,15 +49,15 @@ body {
 }
 
 #social #container {
-  text-align: center;
+  text-align: left;
 }
 
 #social #container ul {
-  float: center;
+  float: left;
 }
 
 #social #container ul li {
-  float: center;
+  float: left;
   padding-left: 10px;
   display: inline-block;
   list-style-type: none;
