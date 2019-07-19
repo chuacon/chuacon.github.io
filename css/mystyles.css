@@ -59,6 +59,7 @@ body {
 #social #container ul li {
   float: center;
   padding-left: 10px;
+  display: inline-block;
   list-style-type: none;
 }
 
