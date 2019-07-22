@@ -1304,7 +1304,7 @@ body.offcanvas {
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
     background: #11d2ea; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: #11d2ea; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
