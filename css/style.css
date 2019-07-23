@@ -1453,7 +1453,7 @@ body.offcanvas {
 
 
 /* SURV Popup box BEGIN */
-.hover_SURV_bkgr_fricc{
+.hover_bkgr_fricc_SURV{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1466,12 +1466,12 @@ body.offcanvas {
     width:100%;
     z-index:10000;
 }
-.hover_SURV_bkgr_fricc .helper{
+.hover_bkgr_fricc_SURV .helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-.hover_SURV_bkgr_fricc > div {
+.hover_bkgr_fricc_SURV > div {
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -1484,7 +1484,7 @@ body.offcanvas {
     border-radius: 8px;
     padding: 8px 15px 1%;
 }
-.SURV_popupCloseButton {
+.popupCloseButton_SURV {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -1501,10 +1501,10 @@ body.offcanvas {
     height: 30px;
     text-align: center;
 }
-.SURV_popupCloseButton:hover {
+.popupCloseButton_SURV:hover {
     background-color: #ccc;
 }
-.SURV_trigger_popup_fricc {
+.trigger_popup_fricc_SURV {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
     font-size: 16px;
@@ -1525,7 +1525,7 @@ body.offcanvas {
 
 
 /* CEMSD Popup box BEGIN */
-.hover_CEMSD_bkgr_fricc{
+.hover_bkgr_fricc_CEMSD{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1538,12 +1538,12 @@ body.offcanvas {
     width:100%;
     z-index:10000;
 }
-.hover_CEMSD_bkgr_fricc .helper{
+.hover_bkgr_fricc_CEMSD .helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-.hover_CEMSD_bkgr_fricc > div {
+.hover_bkgr_fricc_CEMSD > div {
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -1556,7 +1556,7 @@ body.offcanvas {
     border-radius: 8px;
     padding: 8px 15px 1%;
 }
-.CEMSD_popupCloseButton {
+.popupCloseButton_CEMSD {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -1573,10 +1573,10 @@ body.offcanvas {
     height: 30px;
     text-align: center;
 }
-.CEMSD_popupCloseButton:hover {
+.popupCloseButton_CEMSD:hover {
     background-color: #ccc;
 }
-.CEMSD_trigger_popup_fricc {
+.trigger_popup_fricc_CEMSD {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
     font-size: 16px;
