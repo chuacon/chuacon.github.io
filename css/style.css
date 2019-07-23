@@ -1459,7 +1459,8 @@ body.offcanvas {
     display:none;
     height:0%;
     position:absolute;
-    text-align:center;
+    text-align:left;
+    font-size: 12px;
     top:0px;
     left: 0px;
     width:100%;
@@ -1481,7 +1482,7 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 110px 5%;
+    padding: 10px 2%;
 }
 .popupCloseButton {
     background-color: #fff;
