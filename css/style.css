@@ -1544,6 +1544,7 @@ body.offcanvas {
     vertical-align:middle;
 }
 .hover_bkgr_fricc_CEMSD > div {
+  /*
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -1560,6 +1561,20 @@ body.offcanvas {
     right: 20px;
     top: -8px;
     bottom: 12px;
+
+    */
+
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    padding: 8px 15px 1%;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
