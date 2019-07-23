@@ -1452,8 +1452,8 @@ body.offcanvas {
 
 
 
-/* SURV Popup box BEGIN */
-.hover_bkgr_fricc_SURV{
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1466,12 +1466,12 @@ body.offcanvas {
     width:100%;
     z-index:10000;
 }
-.hover_bkgr_fricc_SURV .helper{
+.hover_bkgr_fricc .helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-.hover_bkgr_fricc_SURV > div {
+.hover_bkgr_fricc > div {
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -1484,7 +1484,7 @@ body.offcanvas {
     border-radius: 8px;
     padding: 8px 15px 1%;
 }
-.popupCloseButton_SURV {
+.popupCloseButton {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -1501,10 +1501,10 @@ body.offcanvas {
     height: 30px;
     text-align: center;
 }
-.popupCloseButton_SURV:hover {
+.popupCloseButton:hover {
     background-color: #ccc;
 }
-.trigger_popup_fricc_SURV {
+.trigger_popup_fricc {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
     font-size: 16px;
@@ -1521,80 +1521,4 @@ body.offcanvas {
     transform: translate3d(0, -15px, 0);
     margin-bottom: 15px; }
 }
-/* SURV Popup box BEGIN */
-
-
-/* CEMSD Popup box BEGIN */
-.hover_bkgr_fricc_CEMSD{
-    background:rgba(0,0,0,.4);
-    cursor:pointer;
-    display:none;
-    height:0%;
-    position:absolute;
-    text-align:left;
-    font-size: 12px;
-    top:43px;
-    left: 0px;
-    width:100%;
-    z-index:10000;
-}
-.hover_bkgr_fricc_CEMSD .helper{
-    display:inline-block;
-    height:100%;
-    vertical-align:middle;
-}
-.hover_bkgr_fricc_CEMSD > div {
-    background-color: #fff;
-    box-shadow: 10px 10px 60px #555;
-    display: inline-block;
-    height: auto;
-    max-width: 551px;
-    min-height: 100px;
-    vertical-align: middle;
-    width: 100%;
-    position: relative;
-    border-radius: 8px;
-    padding: 8px 15px 1%;
-}
-.popupCloseButton_CEMSD {
-    background-color: #fff;
-    border: 3px solid #999;
-    border-radius: 50px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: arial;
-    font-weight: bold;
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    font-size: 25px;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-}
-.popupCloseButton_CEMSD:hover {
-    background-color: #ccc;
-}
-.trigger_popup_fricc_CEMSD {
-    font-family: "Quicksand", Arial, sans-serif;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-    transition: opacity 0.3s, -webkit-transform 0.3s;
-    -o-transition: transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-    margin-bottom: 15px; }
-}
-/* CEMSD Popup box BEGIN */
-
-
-
-
+/* Popup box BEGIN */
