@@ -1551,10 +1551,15 @@ body.offcanvas {
     max-width: 551px;
     min-height: 100px;
     vertical-align: middle;
-    width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 8px 15px 1%;
+    padding: 8px 5px;
+    font-size: 12px;
+    width: 495px;
+    height: 229px;
+    right: 20px;
+    top: -8px;
+    bottom: 12px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
@@ -1594,7 +1599,3 @@ body.offcanvas {
     margin-bottom: 15px; }
 }
 /* CEMSD Popup box BEGIN */
-
-
-
-
