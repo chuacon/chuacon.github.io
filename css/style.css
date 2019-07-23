@@ -1552,15 +1552,11 @@ body.offcanvas {
     max-width: 551px;
     min-height: 100px;
     vertical-align: middle;
+    width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 8px 5px;
+    padding: 8px 15px 1%;
     font-size: 12px;
-    width: 450px;
-    height: 247px;
-    right: 20px;
-    top: -8px;
-    bottom: 12px;
 
     */
 
@@ -1568,16 +1564,15 @@ body.offcanvas {
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
     height: auto;
-    /*
-    max-width: 551px;
-    min-height: 100px;
-    */
     vertical-align: middle;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
     border-radius: 8px;
     padding: 8px 15px 1%;
     font-size: 12px;
+    width: 460px;
+    right: 15px;
+    bottom: 10px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
