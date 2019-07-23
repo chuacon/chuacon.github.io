@@ -220,13 +220,17 @@ figure {
       display:inline-block; }
     #colorlib-aside .social-icons ul {
       padding: 0;
-      margin-bottom: 2em; 
+      margin-bottom: 0.8em; 
       text-align: center;}
       #colorlib-aside .social-icons ul li {
         padding: 0;
         margin: 0;
         display: inline;
         list-style: none; }
+      #colorlib-aside .social-icons ul li a:hover, #colorlib-aside .social-icons ul li a:active, #colorlib-aside .social-icons ul li a:focus {
+        text-decoration: none;
+        outline: none;
+        color: red;}
 
 .container-wrap {
   max-width: 1170px;
