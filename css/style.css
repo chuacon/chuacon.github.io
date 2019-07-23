@@ -1577,6 +1577,7 @@ body.offcanvas {
     position: relative;
     border-radius: 8px;
     padding: 8px 15px 1%;
+    font-size: 12px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
