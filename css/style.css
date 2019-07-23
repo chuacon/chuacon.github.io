@@ -1482,7 +1482,7 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 18px 2%;
+    padding: 10px 2%;
 }
 .popupCloseButton {
     background-color: #fff;
