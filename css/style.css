@@ -1675,7 +1675,7 @@ body.offcanvas {
 /* BLE_CSTEP Popup box BEGIN */ 
 
 /* DEEP_LEARNING_CSTEP Popup box BEGIN */
-.hover_bkgr_fricc_DEEP_LEARNING_CSTEP {
+.hover_bkgr_fricc_DEEP_LEARNING_CSTEP{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1704,7 +1704,11 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 3px 15px 0%;
+    padding: 7px 8px 0%;
+    font-size: 12px;
+    bottom: 10px;
+    left: -21px;
+    width: 384px;
 }
 .popupCloseButton_DEEP_LEARNING_CSTEP {
     background-color: #fff;
@@ -1723,7 +1727,7 @@ body.offcanvas {
     height: 30px;
     text-align: center;
 }
-.popupCloseButton_DEEP_LEARNING_CSTEP:hover {
+.popupCloseButton_CEMSD:hover {
     background-color: #ccc;
 }
 .trigger_popup_fricc_DEEP_LEARNING_CSTEP {
@@ -1743,10 +1747,10 @@ body.offcanvas {
     transform: translate3d(0, -15px, 0);
     margin-bottom: 15px; }
 }
-/* DEEP_LEARNING_CSTEP Popup box BEGIN */ 
+/* DEEP_LEARNING_CSTEP Popup box BEGIN */
 
 /* SURV Popup box BEGIN */
-.hover_bkgr_fricc_SURV {
+.hover_bkgr_fricc_SURV{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1775,7 +1779,11 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 3px 15px 0%;
+    padding: 7px 8px 0%;
+    font-size: 12px;
+    bottom: 10px;
+    left: -21px;
+    width: 384px;
 }
 .popupCloseButton_SURV {
     background-color: #fff;
@@ -1814,7 +1822,7 @@ body.offcanvas {
     transform: translate3d(0, -15px, 0);
     margin-bottom: 15px; }
 }
-/* SURV Popup box BEGIN */ 
+/* SURV Popup box BEGIN */
 
 
 /* CEMSD Popup box BEGIN */
