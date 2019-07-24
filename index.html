@@ -594,7 +594,7 @@
               <div class="project" style="background-image: url(images/Mobile_Sensor.png);background-size: cover;">
                 <div class="desc" style="background-image: url(images/PCB.png);background-size: cover;">
                   <div class="con">
-                      <h3><a class="trigger_popup_fricc_GaTech">Smart Urban Visualization</a></h3>
+                      <h3><a class="trigger_popup_fricc_GaTech">Magnet-Wheeled Climbing Mobile Sensor</a></h3>
                       <div class="hover_bkgr_fricc_GaTech">
                         <span class="helper"></span>
                         <div>
@@ -750,6 +750,21 @@
   <script src="js/jquery.countTo.js"></script>
   <!-- MAIN JS -->
   <script src="js/main.js"></script>
+
+  <script>
+    $(window).load(function () {
+      $(".trigger_popup_fricc_GaTech").click(function(){
+        $('.hover_bkgr_fricc_GaTech').show();
+      });
+      $('.hover_bkgr_fricc_GaTech').click(function(){
+        $('.hover_bkgr_fricc_GaTech').hide();
+      });
+      $('.popupCloseButton_GaTech').click(function(){
+        $('.hover_bkgr_fricc_GaTech').hide();
+    });
+    });
+  </script>
+
   <script>
     $(window).load(function () {
       $(".trigger_popup_fricc_SURV").click(function(){
