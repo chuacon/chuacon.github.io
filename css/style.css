@@ -1554,7 +1554,8 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 8px 15px 1%;
+    
+    font-size: 12px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
@@ -1579,7 +1580,7 @@ body.offcanvas {
 .trigger_popup_fricc_CEMSD {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
