@@ -32,7 +32,7 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -1482,7 +1482,7 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 8px 15px 1%;
+    padding: 3px 15px 0%;
 }
 .popupCloseButton_SURV {
     background-color: #fff;
@@ -1554,8 +1554,11 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 8px 15px 1%;
+    padding: 7px 8px 0%;
     font-size: 12px;
+    bottom: 10px;
+    left: -19px;
+    width: 456px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
