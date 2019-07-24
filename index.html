@@ -581,11 +581,19 @@
 
           <div class="row">
             <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-              <div class="project" style="background-image: url(images/img-1.jpg);">
-                <div class="desc">
+              <div class="project" style="background-image: url(images/Mobile_Sensor.png);background-size: auto;">
+                <div class="desc" style="background-image: url(images/PCB.png);background-size: cover;">
                   <div class="con">
-                    <h3><a href="work.html">Work 01</a></h3>
-                    <span>Website</span>
+                      <h3><a class="trigger_popup_fricc_NOAA_CREST">NOAA CREST</a></h3>
+                      <div class="hover_bkgr_fricc_NOAA_CREST">
+                        <span class="helper"></span>
+                        <div>
+                          <div class="popupCloseButton_NOAA_CREST">X</div>
+                          <p>
+                            Structural Health Monitoring (SHM) is an emerging field that leverage state of the art sensing technologies for identifying and characterizing the performance and/or possible deterioration of a structural system. Therefore, a wireless mobile sensor was developed to navigate to targeted locations and measure the acceleration response of steel structures. The wireless mobile uses an edge detection mechanism to prevent it from falling off the steel structure as it navigates to targeted locations. In addition, a push and pull electromagnet solenoid hammer-controlled system was implemented for impacting the steel structure. The simultaneously vibration response excited by the hammer-controlled system can provide indication on dangerous crack formation in the excited area.
+                          </p>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -601,7 +609,6 @@
                           <div class="popupCloseButton_GaTech">X</div>
                           <p>
                             Structural Health Monitoring (SHM) is an emerging field that leverage state of the art sensing technologies for identifying and characterizing the performance and/or possible deterioration of a structural system. Therefore, a wireless mobile sensor was developed to navigate to targeted locations and measure the acceleration response of steel structures. The wireless mobile uses an edge detection mechanism to prevent it from falling off the steel structure as it navigates to targeted locations. In addition, a push and pull electromagnet solenoid hammer-controlled system was implemented for impacting the steel structure. The simultaneously vibration response excited by the hammer-controlled system can provide indication on dangerous crack formation in the excited area.
-
                           </p>
                         </div>
                       </div>
@@ -610,23 +617,37 @@
               </div>
             </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-              <div class="project" style="background-image: url(images/img-3.jpg);">
-                <div class="desc">
+              <div class="project" style="background-image: url(images/Mobile_Sensor.png);background-size: auto;">
+                <div class="desc" style="background-image: url(images/PCB.png);background-size: cover;">
                   <div class="con">
-                    <h3><a href="work.html">Indoor and Outdoor Monitoring of Elderly using BLE Technology</a></h3>
-                    <span>IoT</span>
-                    <p class="icon">  
-                    </p>
+                      <h3><a class="trigger_popup_fricc_BLE_CSTEP">BLE</a></h3>
+                      <div class="hover_bkgr_fricc_BLE_CSTEP">
+                        <span class="helper"></span>
+                        <div>
+                          <div class="popupCloseButton_BLE_CSTEP">X</div>
+                          <p>
+                            Structural Health Monitoring (SHM) is an emerging field that leverage state of the art sensing technologies for identifying and characterizing the performance and/or possible deterioration of a structural system. Therefore, a wireless mobile sensor was developed to navigate to targeted locations and measure the acceleration response of steel structures. The wireless mobile uses an edge detection mechanism to prevent it from falling off the steel structure as it navigates to targeted locations. In addition, a push and pull electromagnet solenoid hammer-controlled system was implemented for impacting the steel structure. The simultaneously vibration response excited by the hammer-controlled system can provide indication on dangerous crack formation in the excited area.
+                          </p>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div>            
             <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-              <div class="project" style="background-image: url(images/img-4.jpg);">
-                <div class="desc">
+              <div class="project" style="background-image: url(images/Mobile_Sensor.png);background-size: auto;">
+                <div class="desc" style="background-image: url(images/PCB.png);background-size: cover;">
                   <div class="con">
-                    <h3><a href="work.html">Concrete Inspection</a></h3>
-                    <span>Deep Learning</span>
+                      <h3><a class="trigger_popup_fricc_DEEP_LEARNING_CSTEP">Concrete Inspection Using Deep Learning</a></h3>
+                      <div class="hover_bkgr_fricc_DEEP_LEARNING_CSTEP">
+                        <span class="helper"></span>
+                        <div>
+                          <div class="popupCloseButton_DEEP_LEARNING_CSTEP">X</div>
+                          <p>
+                            Structural Health Monitoring (SHM) is an emerging field that leverage state of the art sensing technologies for identifying and characterizing the performance and/or possible deterioration of a structural system. Therefore, a wireless mobile sensor was developed to navigate to targeted locations and measure the acceleration response of steel structures. The wireless mobile uses an edge detection mechanism to prevent it from falling off the steel structure as it navigates to targeted locations. In addition, a push and pull electromagnet solenoid hammer-controlled system was implemented for impacting the steel structure. The simultaneously vibration response excited by the hammer-controlled system can provide indication on dangerous crack formation in the excited area.
+                          </p>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -752,6 +773,25 @@
   <!-- MAIN JS -->
   <script src="js/main.js"></script>
 
+
+  <!--  NOAA_CREST --> 
+  <script>
+    $(window).load(function () {
+      $(".trigger_popup_fricc_NOAA_CREST").click(function(){
+        $('.hover_bkgr_fricc_NOAA_CREST').show();
+      });
+      $('.hover_bkgr_fricc_NOAA_CREST').click(function(){
+        $('.hover_bkgr_fricc_NOAA_CREST').hide();
+      });
+      $('.popupCloseButton_NOAA_CREST').click(function(){
+        $('.hover_bkgr_fricc_NOAA_CREST').hide();
+    });
+    });
+  </script>
+  <!--  NOAA CREST -->
+
+
+  <!-- GaTech -->
   <script>
     $(window).load(function () {
       $(".trigger_popup_fricc_GaTech").click(function(){
@@ -765,7 +805,44 @@
     });
     });
   </script>
+  <!-- GaTech -->
 
+
+  <!-- BLE_CSTEP -->
+  <script>
+    $(window).load(function () {
+      $(".trigger_popup_fricc_BLE_CSTEP").click(function(){
+        $('.hover_bkgr_fricc_BLE_CSTEP').show();
+      });
+      $('.hover_bkgr_fricc_BLE_CSTEP').click(function(){
+        $('.hover_bkgr_fricc_BLE_CSTEP').hide();
+      });
+      $('.popupCloseButton_BLE_CSTEP').click(function(){
+        $('.hover_bkgr_fricc_BLE_CSTEP').hide();
+    });
+    });
+  </script>
+  <!-- BLE_CSTEP --> 
+
+
+  <!-- DEEP_LEARNING_CSTEP -->
+  <script>
+    $(window).load(function () {
+      $(".trigger_popup_fricc_DEEP_LEARNING_CSTEP").click(function(){
+        $('.hover_bkgr_fricc_DEEP_LEARNING_CSTEP').show();
+      });
+      $('.hover_bkgr_fricc_DEEP_LEARNING_CSTEP').click(function(){
+        $('.hover_bkgr_fricc_DEEP_LEARNING_CSTEP').hide();
+      });
+      $('.popupCloseButton_DEEP_LEARNING_CSTEP').click(function(){
+        $('.hover_bkgr_fricc_DEEP_LEARNING_CSTEP').hide();
+    });
+    });
+  </script>
+  <!-- DEEP_LEARNING_CSTEP -->
+
+
+  <!-- SURV -->   
   <script>
     $(window).load(function () {
       $(".trigger_popup_fricc_SURV").click(function(){
@@ -779,7 +856,9 @@
     });
     });
   </script>
+  <!-- SURV -->
 
+  <!-- CEMSD -->   
     <script>
     $(window).load(function () {
       $(".trigger_popup_fricc_CEMSD").click(function(){
@@ -793,5 +872,7 @@
     });
     });
   </script>
+  <!-- CEMSD --> 
+
   </body>
 </html>

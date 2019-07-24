@@ -1451,7 +1451,79 @@ body.offcanvas {
 
 
 
- /* GaTech Popup box BEGIN */
+ /* NOAA_CREST Popup box BEGIN */
+.hover_bkgr_fricc_NOAA_CREST {
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:0%;
+    position:absolute;
+    text-align:left;
+    font-size: 12px;
+    top:43px;
+    left: 0px;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc_NOAA_CREST .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc_NOAA_CREST > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    padding: 3px 15px 0%;
+}
+.popupCloseButton_NOAA_CREST {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton_NOAA_CREST:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc_NOAA_CREST {
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+    margin-bottom: 15px; }
+}
+/* NOAA_CREST Popup box BEGIN */  
+
+
+/* GaTech Popup box BEGIN */
 .hover_bkgr_fricc_GaTech {
     background:rgba(0,0,0,.4);
     cursor:pointer;
@@ -1481,7 +1553,11 @@ body.offcanvas {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    padding: 3px 15px 0%;
+    padding: 7px 8px 0%;
+    font-size: 12px;
+    bottom: 10px;
+    left: -21px;
+    width: 384px;
 }
 .popupCloseButton_GaTech {
     background-color: #fff;
@@ -1523,7 +1599,151 @@ body.offcanvas {
 /* GaTech Popup box BEGIN */ 
 
 
+/* BLE_CSTEP Popup box BEGIN */
+.hover_bkgr_fricc_BLE_CSTEP {
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:0%;
+    position:absolute;
+    text-align:left;
+    font-size: 12px;
+    top:43px;
+    left: 0px;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc_BLE_CSTEP .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc_BLE_CSTEP > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    padding: 7px 8px 0%;
+    font-size: 12px;
+    bottom: 10px;
+    left: -21px;
+    width: 384px;
+}
+.popupCloseButton_BLE_CSTEP {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton_BLE_CSTEP:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc_BLE_CSTEP {
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+    margin-bottom: 15px; }
+}
+/* BLE_CSTEP Popup box BEGIN */ 
 
+/* DEEP_LEARNING_CSTEP Popup box BEGIN */
+.hover_bkgr_fricc_DEEP_LEARNING_CSTEP {
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:0%;
+    position:absolute;
+    text-align:left;
+    font-size: 12px;
+    top:43px;
+    left: 0px;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc_DEEP_LEARNING_CSTEP .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc_DEEP_LEARNING_CSTEP > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    padding: 3px 15px 0%;
+}
+.popupCloseButton_DEEP_LEARNING_CSTEP {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton_DEEP_LEARNING_CSTEP:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc_DEEP_LEARNING_CSTEP {
+    font-family: "Quicksand", Arial, sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+    margin-bottom: 15px; }
+}
+/* DEEP_LEARNING_CSTEP Popup box BEGIN */ 
 
 /* SURV Popup box BEGIN */
 .hover_bkgr_fricc_SURV {
@@ -1594,7 +1814,7 @@ body.offcanvas {
     transform: translate3d(0, -15px, 0);
     margin-bottom: 15px; }
 }
-/* SURV Popup box BEGIN */
+/* SURV Popup box BEGIN */ 
 
 
 /* CEMSD Popup box BEGIN */
