@@ -1507,7 +1507,7 @@ body.offcanvas {
 .trigger_popup_fricc_SURV {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1558,7 +1558,7 @@ body.offcanvas {
     font-size: 12px;
     bottom: 10px;
     left: -19px;
-    width: 379px;
+    width: 381px;
 }
 .popupCloseButton_CEMSD {
     background-color: #fff;
@@ -1583,7 +1583,7 @@ body.offcanvas {
 .trigger_popup_fricc_CEMSD {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
