@@ -1452,11 +1452,8 @@ body.offcanvas {
 
 
 
-
-
-
-/* CEMSD Popup box BEGIN */
-.hover_bkgr_fricc_CEMSD{
+/* SURV Popup box BEGIN */
+.hover_bkgr_fricc_SURV .hover_bkgr_fricc_CEMSD{
     background:rgba(0,0,0,.4);
     cursor:pointer;
     display:none;
@@ -1469,12 +1466,12 @@ body.offcanvas {
     width:100%;
     z-index:10000;
 }
-.hover_bkgr_fricc_CEMSD .helper{
+.hover_bkgr_fricc_SURV .helper .hover_bkgr_fricc_CEMSD .helper{
     display:inline-block;
     height:100%;
     vertical-align:middle;
 }
-.hover_bkgr_fricc_CEMSD > div {
+.hover_bkgr_fricc_SURV .hover_bkgr_fricc_CEMSD > div {
     background-color: #fff;
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
@@ -1487,7 +1484,7 @@ body.offcanvas {
     border-radius: 8px;
     padding: 8px 15px 1%;
 }
-.popupCloseButton_CEMSD {
+.popupCloseButton_SURV .popupCloseButton_CEMSD {
     background-color: #fff;
     border: 3px solid #999;
     border-radius: 50px;
@@ -1504,10 +1501,10 @@ body.offcanvas {
     height: 30px;
     text-align: center;
 }
-.popupCloseButton_CEMSD:hover {
+.popupCloseButton_SURV:hover .popupCloseButton_CEMSD:hover {
     background-color: #ccc;
 }
-.trigger_popup_fricc_CEMSD {
+.trigger_popup_fricc_SURV .trigger_popup_fricc_CEMSD {
     font-family: "Quicksand", Arial, sans-serif;
     cursor: pointer;
     font-size: 16px;
